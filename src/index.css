@@ -1,4 +1,35 @@
+@import url('bootstrap');
+@import url('bootstrap-icons');
+
 * {
   border: 0;
   margin: 0;
+  background-color: azure;
+  
+}
+main {
+  min-height: 100vh;
+}
+
+.active {
+  background-color: blueviolet ;
+}
+ul {
+  text-decoration: none;
+}
+nav {
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  a { 
+    
+    text-decoration: none;
+    color: cyan; 
+    border-style:solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: black;
+  }
 }
